@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/tsh22/stats-preview-card)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL]([https://your-live-site-url.com](https://tsh22.github.io/stats-preview-card/))
 
 ## My process
 
