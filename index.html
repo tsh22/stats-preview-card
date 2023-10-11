@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="card-img__bg">
+          <picture>
+            <source
+              srcset="./images/image-header-desktop.jpg"
+              media="(min-width: 62.5em)"
+            />
+            <img
+              src="./images/image-header-mobile.jpg"
+              alt="Stock image of 3 ladies in a meeting"
+              class="card-img"
+            />
+          </picture>
+        </div>
+        <div class="card__content">
+          <h1 class="card__heading">
+            Get <span class="accent">insights</span> that help your business
+            grow.
+          </h1>
+          <p class="card__text">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="data">
+            <div class="stat">
+              <div class="stat__data">10k+</div>
+              <div class="stat__heading">companies</div>
+            </div>
+            <div class="stat">
+              <div class="stat__data">314</div>
+              <div class="stat__heading">templates</div>
+            </div>
+            <div class="stat">
+              <div class="stat__data">12M+</div>
+              <div class="stat__heading">queries</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Sihui</a>.
+    </div>
+  </body>
+</html>
