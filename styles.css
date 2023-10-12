@@ -119,7 +119,7 @@ textarea:not([rows]) {
 
 body {
   background-color: var(--main-bg);
-  font-size: 0.9375em;
+  font-size: 0.9em;
   font-weight: 400;
   font-family: var(--inter);
   display: flex;
@@ -129,7 +129,7 @@ body {
 }
 .card {
   background-color: var(--card-bg);
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
   text-align: center;
   margin: 0 auto;
   color: var(--main-heading);
@@ -164,22 +164,26 @@ body {
 .data {
   margin-top: 2em;
 }
-.card-img__bg {
+.card-img__container {
   background-color: var(--accent);
+  opacity: 0.75;
   border-radius: 10px 10px 0 0;
 }
 .card-img {
   mix-blend-mode: multiply;
   width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 .accent {
   color: var(--accent);
 }
 
 @media (min-width: 62.5em) {
-  .card-img__bg {
+  .card-img {
     border-radius: 0 10px 10px 0;
-    flex-grow: 1;
+  }
+  .card-img__container {
+    border-radius: 0 10px 10px 0;
     order: 2;
   }
   .card {
@@ -187,7 +191,6 @@ body {
     grid-template-columns: 1fr 1fr;
     max-width: 62.5em;
     text-align: left;
-    border-radius: 10px 0 0 10px;
   }
   .card__content {
     order: 1;
